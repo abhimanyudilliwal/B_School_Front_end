@@ -1,0 +1,39 @@
+.btnabout{
+   
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        background: #15C39A;
+        color: #fff;
+        border: none;
+      /*   border-radius: 100px; */
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        transition: background 0.2s ease-out;
+      }
+      
+      .btnabout:hover {
+        background: #55D3AC;
+      }
+.containerab {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      @media (min-width: 768px) {
+        .containerab {
+          width: 750px;
+        }
+      }
+      @media (min-width: 992px) {
+        .containerab {
+          width: 970px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .containerab {
+          width: 1170px;
+        }
+      }
